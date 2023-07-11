@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select by age</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/home_header.js"></script>
+
+</head>
+<div id="home_header"></div>
+<body class="bg-dark">
+  
+    <div class="container-fluid"id="bgdropdown">
+        
+        <div class="row mt-5">
+
+            <div class="col-10 col-lg-6 col-md-6 mx-auto ">
+                <div class="border  border-3 border-warning shadow">
+                    <div class="border  border-3 border-info shadow">
+                        <div class="border  border-3 border-danger shadow">
+                    <form method="post" action="dropfetch.php">
+                        <div class="my-menu">
+                            <select name="dropdown" class="bg-warning text-center w-50  p-2 mt-5 mb-5" id="dropdown">
+                                <option value="" >Select Age</option>
+                                <option value="3">3</option>
+                                <option value="5">5</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="18">18</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <br><input type="submit" class="btn btn-success mb-5" value="Fetch Data">
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>

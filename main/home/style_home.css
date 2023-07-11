@@ -1,0 +1,27 @@
+*{
+    overflow-x: hidden;
+    text-align: center;
+}
+.Synopsis{
+    text-align: justify;
+    margin: 0%;
+    padding: 0%;
+}
+.card:hover {
+    border-radius: 60px;
+    transition: 2s;
+}
+.prime{
+    background-color: #1a701f;
+}
+.btn:hover {
+    color: white;
+    font-weight: bolder;
+    border-radius: 60px;
+    transition: 2s;
+}
+::-webkit-scrollbar {
+    width: 0;
+
+    /* Hide the scrollbar completely */
+}
