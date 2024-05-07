@@ -1,14 +1,14 @@
-* {
+/* * {
     overflow-x: hidden;
     text-decoration: none;
     user-select: none;
 }
 
 ::-webkit-scrollbar {
-    width: 0;
+    width: 0; */
 
     /* Hide the scrollbar completely */
-}
+/* }
 
 
 h1,
@@ -24,9 +24,9 @@ a .btn {
 }
 
 
-#searchbtn {
+#searchbtn { */
 
-    border-radius: 45px;
+    /* border-radius: 45px;
 }
 
 #siteview {
@@ -39,8 +39,8 @@ a .btn {
     position: absolute;
     top: 8px;
     left: 16px;
-}
-
+} */
+/* 
 #trending {
     background-size: cover;
 }
@@ -54,8 +54,8 @@ td:hover {
 .btn:hover {
     color: green;
     font-weight: bolder;
-    border-radius: 60px;
-    transition: 2s;
+    border-radius: 60px; */
+    /* transition: 2s;
 
 }
 
@@ -96,8 +96,8 @@ td:hover {
 
 .info {
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 50%; */
+    /* left: 25%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -112,8 +112,8 @@ td:hover {
 
 .info h2 {
     margin-top: 0;
-}
-
+} */
+/* 
 .info p {
     margin-bottom: 0;
 }
@@ -133,9 +133,9 @@ td:hover {
     to {
         width: 50%;
     }
-}
+} */
 
-.justify {
+/* .justify {
     text-align: justify;
 }
 
@@ -147,9 +147,9 @@ td:hover {
     transform: translate(-50%, -50%)
 }
 
-.my-menu {
+.my-menu { */
     /*Sets all the content of dropdown div to center*/
-    text-align: center;
+    /* text-align: center;
     appearance: none;
 }
 
@@ -162,9 +162,9 @@ td:hover {
     transition: 3s;
     appearance: none;
 
-}
+} */
 
-
+/* 
 .animate-on-scroll {
     opacity: 0;
     transform: translateX(-100px);
@@ -188,8 +188,8 @@ td:hover {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
-}
-
+} */
+/* 
 #back-to-top-btn.active {
     opacity: 1;
     visibility: visible;
@@ -208,8 +208,8 @@ td:hover {
     justify-content: center;
     opacity: 1;
     transition: opacity 0.5s;
-}
-
+} */
+/* 
 .hide-loading {
     opacity: 0;
     pointer-events: none;
@@ -249,4 +249,4 @@ td:hover {
     position: relative;
     justify-content: center;
     transition: 2s;
-}
+} */
